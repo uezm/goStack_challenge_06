@@ -6,7 +6,7 @@
   <a href="#rocket-desafio">Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#artificial_satellite-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#gear-testes-aplicados-nesse-desafio">Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-testes">Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#file_folder-licença">Licença</a>
 </p>
@@ -18,11 +18,6 @@
 O objetivo desse desafio foi continuar desenvolvendo a aplicação de gestão de transações, treinando o que se aprendeu até agora no Node.js junto ao TypeScript, porém incluindo o uso de banco de dados com o TypeORM e envio de arquivos com o Multer!
 
 Essa aplicação deve armazenar transações financeiras de entrada e saída e permitir o cadastro e a listagem dessas transações, além de permitir a criação de novos registros no banco de dados a partir do envio de um arquivo csv.
-
-
-<h4 display="flex" align="center">
-    <img width="30%" alt="Proffy" title="Proffy" src=".github/transactions.png"/>
-</h4>
 
 
 ## :artificial_satellite: Tecnologias
@@ -48,6 +43,13 @@ Como funcionalidades da aplicação, temos:
 - DELETE (/transactions/:id): Utilizar o ID da transação para pode excluir a transação, caso ela exista.
 
 - POST (/transactions/import): Permitir a criação de novos registros no banco de dados a partir do envio de um arquivo csv.
+
+
+<h4><strong>A rota deve retornar um objeto com o seguinte formato:</strong></h4>
+
+<h4 display="flex" align="center">
+    <img width="70%" alt="Proffy" title="Proffy" src=".github/transactions.png"/>
+</h4>
 
 
 ## :memo: Testes
